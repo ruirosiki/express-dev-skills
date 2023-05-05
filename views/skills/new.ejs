@@ -2,14 +2,16 @@
 
 <form action="/skills" method="POST" autocomplete="off">
     <div class="mb-3">
-      <label for="skill" class="form-label">Add a new Skill/label>
+      <label for="skill" class="form-label">Add a new Skill</label>
       <input type="text" class="form-control" id="skill" aria-describedby="skillHelp" name="skill">
       <div id="skillHelp" class="form-text">Please enter a new skill</div>
     </div>
+    <select class="form-select" aria-label="Default select example" name="level">
+        <option selected>Open this select menu</option>
+        <option value="1">Beginner</option>
+        <option value="2">Intermediate</option>
+        <option value="3">Expert</option>
+      </select>
     <button type="submit" class="btn btn-primary">Save skill</button>
   </form>
-
-
-
-
 <%- include("../partials/footer") %>
