@@ -1,0 +1,11 @@
+
+<%- include('../partials/header') %>
+
+    <h3>
+        Skill - <%= skill.skill %>
+    </h3>    
+    <h4> 
+       Level - <%= skill.level %>
+    </h4>
+    <a href="/skills/<%= skill.id %>/edit">Edit Skill</a>
+    <%- include('../partials/footer') %>
