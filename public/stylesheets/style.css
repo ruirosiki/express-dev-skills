@@ -1,6 +1,7 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(176, 207, 176);
 }
 
 a {
@@ -9,4 +10,21 @@ a {
 
 .btn {
   margin-top: 5%;
+}
+
+li {
+  padding: 1rem;
+}
+
+#delete-btn {
+  margin: .5rem;
+}
+
+#skills-links {
+  font-size: 30px;
+}
+
+#level {
+  font-size: 25px;
+  margin-top: .25rem;
 }

@@ -1,10 +1,10 @@
 //Object containing a bunch of developer skills and level.
 const skills = [
-  { id: 123, skill: "CSS", level: "beginner" },
-  { id: 124, skill: "JavaScript", level: "beginner" },
-  { id: 125, skill: "HTML", level: "beginner" },
-  { id: 126, skill: "Node.js", level: "beginner" },
-  { id: 127, skill: "Express", level: "beginner" },
+  { id: 123, skill: "CSS", level: "Beginner" },
+  { id: 124, skill: "JavaScript", level: "Beginner" },
+  { id: 125, skill: "HTML", level: "Beginner" },
+  { id: 126, skill: "Node.js", level: "Beginner" },
+  { id: 127, skill: "Express", level: "Beginner" },
 ];
 
 function getAll() {
